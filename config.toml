@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://zephilinox.github.io/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "Ricardo Heath's Portfolio"
 theme = "freelancer"
 
 [params]
@@ -11,8 +11,8 @@ theme = "freelancer"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Ricardo Heath"
+    description = "Student studying Games Development at UWE"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -32,14 +32,14 @@ theme = "freelancer"
 	custom_js  = []
 
     [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+        brand = "Ricardo Heath's Portfolio"
 
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+        name = "Ricardo Heath"
+        subtitle = "Blogger - Programmer - Student"
 
 
     [params.portfolio]
@@ -59,11 +59,11 @@ theme = "freelancer"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "I'm a student studying games development looking to gain industry experience. I'm particularly interested in engine architecture and gameplay programming."
+        right = "I love creating technical bits of code to understand how it all fits together to produce a game. Check out my github or resume below for more information."
 
         [params.about.button]
-            text = "Download theme"
+            text = "Resume"
             link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
             icon = "download"
 
@@ -98,22 +98,33 @@ theme = "freelancer"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["Bristol", "United Kingdom"]
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Contact"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/zephilinox"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
-
+                icon = "fa-twitter"
+                link=  "//twitter.com/zephilinox"
+				
+            [[params.footer.social.networks]]
+                icon = "fa-reddit"
+                link=  "//reddit.com/u/zephilinox"
+				
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link=  "//linkedin.com/in/ricardo-h-9805378a"
+				
+            [[params.footer.social.networks]]
+                icon = "fa-envelope-o"
+                link=  "mailto:rmfhzx@gmail.com"
 
         [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+            title = "Credits"
+            text = "Freelancer is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
