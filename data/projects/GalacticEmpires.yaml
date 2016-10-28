@@ -1,0 +1,8 @@
+modalID: 3
+title: Galactic Empires
+date: 2014-10-29
+img: Galemp.png
+client: Start Bootstrap
+clientLink: "#"
+category: Game Development
+description: The project [Galactic Empires](https://github.com/Zephilinox/GalacticEmpires) was meant to be a 4x space game made in C\+\+ with SFML, CEGUI, Thor, Lua, and LuaBridge. Development stopped shortly after due to the realisation of the huge scope of such a project and the lack of experience to finish it. Features Lua Integration, CEGUI Integration, State Management, and A\* Pathfinding on a Hexagonal Grid.
