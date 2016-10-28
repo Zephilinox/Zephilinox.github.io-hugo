@@ -176,12 +176,24 @@ header .intro-text .skills {
 .navbar li.page-scroll a:focus,
 .navbar li.page-scroll a:hover {
 	color: #ffa400; /*Fix navbar colour*/
+	background-color: #2c2c2c;
+}
+
+.navbar li.page-scroll.active a:active,
+.navbar li.page-scroll.active a:focus,
+.navbar li.page-scroll.active a:hover {
+	color: #ffa400; /*Fix navbar colour*/
+	background-color: #2c2c2c;
 }
 
 .navbar-header.page-scroll a:active,
 .navbar-header.page-scroll a:focus,
 .navbar-header.page-scroll a:hover {
 	color: #ffa400;
+}
+
+.navbar li.page-scroll.active a{
+	background-color: #2c2c2c; /*Fix blue background on click of navbar, combine selector with .active slightly above to keep it orange*/
 }
 
 section {
