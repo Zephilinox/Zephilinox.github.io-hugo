@@ -19,6 +19,8 @@ git submodule update
 git pull origin master
 cd ..
 
+may also need to do the same for themes/freelancer
+
 
 
 

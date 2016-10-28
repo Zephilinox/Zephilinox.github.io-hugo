@@ -2,3 +2,8 @@
 	path = public
 	url = git@github.com:zephilinox/zephilinox.github.io.git
 	branch = master
+	
+[submodule "freelancer"]
+	path = themes/freelancer
+	url = git@github.com:digitalcraftsman/hugo-freelancer-theme.git
+	branch = master
