@@ -1,8 +1,0 @@
-modalID: 4
-title: Entity Component System
-date: 2013-02-25
-img: ECS.png
-client: Start Bootstrap
-clientLink: "#"
-category: Game Development
-description: After reading the blog post on [T-Machine](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/) I decided to create an [Entity Component System](https://github.com/Zephilinox/ECS) by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data. Systems operate on groups of components which is how various functioality is implemented, such as movement, controls, and rendering. Each system has access to the EntityManager which in turn stores all Entities as lists of Components, using Variadic Templates to return specific subsets of entities based on the components they have.
