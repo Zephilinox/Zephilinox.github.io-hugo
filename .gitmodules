@@ -1,7 +1,6 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:zephilinox/zephilinox.github.io.git
-	branch = master
+	url = https://github.com/Zephilinox/Zephilinox.github.io.git
 
 [submodule "themes/hucore"]
 	path = themes/hucore
