@@ -1,0 +1,124 @@
+html {
+	background-color: #FDF6E3;
+}
+
+html, body, body div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, abbr, address, cite, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	font-size: 19px;
+}
+
+span.icon {
+	vertical-align: unset !important;
+}
+
+.container > h1.title,
+.container > article > h1.title,
+.container > article > h1.title > a {
+	text-align: center;
+	font-size: 32px;
+	color: #3c3c3c;
+}
+
+.container > h2.subtitle,
+.container > article > h2.subtitle,
+.container > article > h2.subtitle > a {
+	text-align: center;
+	color: #7c7c7c;
+}
+
+a:hover {
+	border: 0px solid black !important;
+	border-bottom: 0px solid black !important;
+	color: #F2992E;
+}
+
+.nav-item a:hover > .title,
+h1.title a:hover,
+div.content p a:not(.button) {
+	color: #F2992E !important;
+	border: 0px solid black;
+	border-bottom: 0px solid black;
+}
+
+div.content p a:hover:not(.button) {
+	text-decoration: underline;
+}
+
+.nav-item a:hover > .icon,
+.nav-item a:hover > .fa,
+a.nav-item:hover > .title,
+a.nav-item:hover > .fa {
+	color: #F2992E !important;
+}
+
+p a:link {
+	color: #569cd6 !important;
+}
+
+p a:hover {
+	color: #F2992E !important;
+}
+
+p a:visited {
+	color: #569cd6 !important;
+}
+
+p a:visited:hover {
+	color: #F2992E !important;
+}
+
+body, button, input, select, textarea {
+	font-family: "Maven Pro" !important;
+}
+
+a.button {
+	border: 0px solid black !important;
+}
+
+div.content:hover > a.button.is-link:hover {
+	background-color: #FDF6E3;
+	color: #3C3C3C;
+}
+
+a.button.is-link.read-more {
+	padding: 0px;
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #FDF6E3;
+	color: #3C3C3C;
+}
+
+div.content:hover > a.button.is-link.read-more:hover {
+	color: #F2992E !important;
+}
+
+div > div.level-item > a.button {
+	padding: 0px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a.level-item > span.icon {
+	font-size: 36px;
+}
+
+nav.nav-item a.level-item {
+	margin-left: 20px;
+}
+
+
+div > div.level-item > a.button:hover {
+	color: #F2992E !important;
+}
+
+p img {
+	display: block;
+	margin: auto;
+}
+
+span.fa.fa-heart {
+	color: #3C3C3C;
+}
+
+span.fa.fa-heart:hover {
+	color: #F2992E;
+}

@@ -1,0 +1,18 @@
+pre code {
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    color: gainsboro;
+    background-color: #ffffff;
+    font-family: "Consolas", monospace;
+    font-size: 1rem;
+	line-height: 1.3rem;
+    overflow: auto;
+}
+
+p code {
+    border-width: 0px !important;
+    border-color: #ffd7a5 !important;
+    color: #2c2c2c !important;
+    background-color: #ffd7a5 !important;
+}

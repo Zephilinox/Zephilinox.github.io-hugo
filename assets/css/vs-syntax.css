@@ -1,0 +1,185 @@
+pre.visualstudio {
+    border-radius: 4px;
+    padding: 12px;
+    border-style: solid;
+    border-color: #1c1c1c !important;
+    color: gainsboro;
+    background-color: #1c1c1c !important;
+    font-family: "Consolas", monospace;
+    font-size: 100%;
+	line-height: 1.2rem;
+    overflow: auto;
+}
+
+.preprocessor.keyword {
+    color: #9b9b9b;
+}
+
+.comment {
+    color: #7bb13f;
+}
+
+.string {
+    color: #e6c864;
+}
+
+.keyword {
+    color: #569cd6;
+}
+
+.cppType.identifier {
+    color: #4ec9b0;
+}
+
+.operator {
+    color: #b4b4b4;
+}
+
+.cppMemberFunction.identifier {
+    color: #c8c8c8;
+}
+
+.cppParameter.identifier {
+    color: #7f7f7f;
+}
+
+.cppMemberOperator {
+    color: #ff0000;
+}
+
+.cppMemberOperator.keyword {
+    /*Packet& |operator| >>(int& i);*/
+    color: #ff3377;
+}
+
+.cppMemberOperator.operator {
+    color: #ff3377;
+}
+
+.cppNamespace.identifier {
+    color: #c8c8c8;
+}
+
+.cppMemberField.identifier {
+    color: #dadada;
+}
+
+pre.visualstudio > .number {
+    background: #1c1c1c;
+    color: #b482ff;
+    border-radius: inherit;
+    display: inline;
+    font-size: inherit;
+    vertical-align: inherit;
+}
+
+.cppLocalVariable.identifier {
+    color: #c8c8c8;
+}
+
+.identifier {
+    /*No default colour?*/
+}
+
+.cppMacro.identifier {
+    color: #bd63c5;
+}
+
+.cppClassTemplate.identifier {
+    /*Name of a templated class*/
+    color: #4ec9b0;
+}
+
+.cppStaticMemberField.identifier {
+    color: #ff0000;
+}
+
+.cppGlobalVariable.identifier {
+    /*std::|cout|*/
+    color: #ff0000;
+}
+
+.cppFunction.identifier {
+    /*Name of a function*/
+    color: #c8c8c8;
+}
+
+.CppInactiveCodeClassification {
+    color: #ff0000;
+}
+
+.CppInactiveCodeClassification.identifier {
+    color: #ff0000;
+}
+
+.CppInactiveCodeClassification.operator {
+    color: #ff0000;
+}
+
+.CppInactiveCodeClassification.keyword {
+    color: #ff0000;
+}
+
+.CppInactiveCodeClassification.preprocessor.keyword {
+    color: #ff0000;
+}
+
+.CppInactiveCodeClassification.number {
+    color: #ff0000;
+}
+
+.cppOperator.operator {
+    /*std::cout |<<| "Hi"*/
+    color: #ff3377;
+}
+
+.cppEnumerator.identifier {
+    color: #b8d7a3;
+}
+
+.cppMemberFunction.operator {
+    color: #ff0000;
+}
+
+.cppFunctionTemplate.identifier {
+    /*std::|erase_if|*/
+    color: #c8c8c8; 
+}
+
+.cppStaticMemberFunction.identifier {
+    color: #ff0000;
+}
+
+.cppUserDefinedLiteralNumber.number {
+    color: #ff0000;
+}
+
+.cppUserDefinedLiteralNumber.identifier {
+    color: #ff0000;
+}
+
+.cppUserDefinedLiteralString {
+    color: #ff0000;
+}
+
+.cppUserDefinedLiteralString.keyword {
+    color: #ff0000;
+}
+
+.cppUserDefinedLiteralString.string {
+    /*|"two"|_hash*/
+    color: #d69d85;
+}
+
+.cppUserDefinedLiteralString.identifier {
+    /*"two"|_hash|*/
+    color: #d69d85;
+}
+
+.cppNewDelete.keyword {
+    /*
+    int* i = |new| int;
+    |delete| i;
+    */
+    color: #ff0000;
+}

@@ -1,0 +1,25 @@
+<section class="section">
+  <div class="container has-text-centered">
+	{{ if false }}
+	<p>{{ .Site.Copyright | safeHTML }}</p>
+	{{ end }}
+	<a href="{{ .Site.BaseURL }}/index.xml">
+		<span class="fa fa-heart" aria-hidden="true" style="font-size: 12px;">
+		</span>
+	</a>
+  </div>
+</section>
+
+{{ if .Site.Params.highlight.theme }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlight.theme }}.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js" integrity="sha256-+bhVTaRmJ/c07eV80nU8gD2cBBF0rYkf1txqXlrbvb0=" crossorigin="anonymous"></script>
+{{ range .Site.Params.highlight.languages }}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/{{ . }}.min.js"></script>
+{{ end }}
+<script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
+	
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}

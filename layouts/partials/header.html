@@ -1,15 +1,23 @@
-{{ "<!-- Header -->" | safeHTML }}
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="img/{{ with .Site.Params.header.image }}{{ . }}{{ else }}profile.png{{ end }}" alt="">
-                <div class="intro-text">
-                    <span class="name">{{ with .Site.Params.header.name }}{{ . }}{{ end }}</span>
-                    <hr class="star-light">
-                    <span class="skills">{{ with .Site.Params.header.subtitle }}{{ . }}{{ end }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<!DOCTYPE html>
+<html{{ with .Site.LanguageCode }} lang="{{ . }}"{{ end }}>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="{{ delimit .Site.Params.Keywords ", " }}" name="keywords">
+	<meta content="{{ .Site.Params.Author }}" name="author">
+	<meta property="og:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:description" content="{{ .Site.Params.Description }}">
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/blog/wave.ico">
+	<link rel="shortcut icon" href="/blog/wave.ico">
+	<title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
+	{{ $style:= resources.Get "/css/style.css" }}
+	{{ $custom:= resources.Get "/css/custom.css" }}
+	{{ $syntax:= resources.Get "/css/syntax.css" }}
+	{{ $vssyntax:= resources.Get "/css/vs-syntax.css" }}
+	{{ $css := slice $style $custom $syntax $vssyntax | resources.Concat "/css/css.css" | resources.Minify | resources.Fingerprint }}
+	<link rel="stylesheet" href="{{ $css.Permalink }}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+</head>
