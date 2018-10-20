@@ -2,6 +2,7 @@
 date: 2018-05-03
 title: Syntax Highlighting With Visual Studio
 weight: 10
+draft: true
 ---
 
 Typical syntax highlighters like `highlight.js` and `pygment` are only able to discern a limited amount of syntax information from standard text. Taking advantage of Visual Studio's syntax highlighting and the ability to [Copy as HTML](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.CopyAsHtml) allows me to get full syntax highlighting in these blog posts.

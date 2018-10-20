@@ -1,6 +1,8 @@
 # Zephilinox.github.io-hugo
 The hugo files that generate the static webpage
 
+run `./hugo`
+
 after making any edits:
 ```
 cd public
