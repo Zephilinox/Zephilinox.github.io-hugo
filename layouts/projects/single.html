@@ -5,7 +5,12 @@
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
     <div class="content">
-      {{ .Content }}
+		{{ if .Params.image }}
+			<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
+				<img src="../../projects/{{ .Params.image }}" alt="Image of '{{ .Title }}' Project"/>
+			</a>
+		{{ end }}
+		{{ .Content }}
     </div>
     {{ if (ne ($.Param "sharingicons") false) }}
     {{ partial "sharing.html" . }}

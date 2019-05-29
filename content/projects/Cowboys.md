@@ -5,10 +5,6 @@ weight: 2
 image: "cowboys.png"
 ---
 
-![Cowboys](../cowboys.png)
-
-<!--more-->
-
 Cowboys is a networked, turn-based startegy game where you control a team of 5 differnt cowboys and battle it out against another player. 
 
 Click on units to select them and then right click on a tile to path towards it. If you right click an enemy unit, your unit will fire at them.

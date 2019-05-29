@@ -9,7 +9,7 @@
 			<div class="content">
 				{{ if .Params.image }}
 					<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
-						<img src="{{ .Params.image }}" alt="Image of '{{ .Title }}' Project"/>
+						<img src="../../projects/{{ .Params.image }}" alt="Image of '{{ .Title }}' Project"/>
 					</a>
 					
 					<a class="button is-link read-more" href="{{ .Permalink }}" style="height:28px;">

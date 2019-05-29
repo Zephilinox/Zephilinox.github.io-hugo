@@ -1,19 +1,20 @@
 baseurl = "https://ricardoheath.co.uk"
 languageCode = "en"
-title = "Blog"
+title = "Ricardo Heath"
 theme = "Hucore"
 disqusShortname = ""
 googleAnalytics = "UA-118667261-1"
 publishDir = "public"
 enableGitInfo = true
+Paginate = 20
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 [params]
-description = "Programming blog about C++ and game development"
-keywords = ["C++", "Gamedev", "Programming"]
+description = "Ricardo Heath's Portfolio"
+keywords = ["C++", "Gamedev", "Programming", "Portfolio"]
 displayauthor = true
 author = "Ricardo Heath"
 sharingicons = false
