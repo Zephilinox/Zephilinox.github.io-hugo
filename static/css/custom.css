@@ -114,3 +114,30 @@ p img {
 	display: block;
 	margin: auto;
 }
+
+div.content > h1,
+div.content > h2,
+div.content > h3,
+div.content > h4,
+div.content > h5,
+div.content > h6 {
+	margin-bottom: 0px !important;
+}
+
+div.content > h1:not(:first-child),
+div.content > h2:not(:first-child),
+div.content > h3:not(:first-child),
+div.content > h4:not(:first-child),
+div.content > h5:not(:first-child),
+div.content > h6:not(:first-child) {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+a > span.fa.fa-heart {
+	color: #3C3C3C;
+}
+
+a:hover > span.fa.fa-heart {
+	color: #F2992E;
+}

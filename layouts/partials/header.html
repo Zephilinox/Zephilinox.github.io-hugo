@@ -12,12 +12,10 @@
 	<meta property="og:image" content="/blog/wave.ico">
 	<link rel="shortcut icon" href="/blog/wave.ico">
 	<title>{{ .Title }}{{ if eq .IsHome false }} | {{ .Site.Title }}{{ end }}</title>
-	{{ $style:= resources.Get "/css/style.css" }}
-	{{ $custom:= resources.Get "/css/custom.css" }}
-	{{ $syntax:= resources.Get "/css/syntax.css" }}
-	{{ $vssyntax:= resources.Get "/css/vs-syntax.css" }}
-	{{ $css := slice $style $custom $syntax $vssyntax | resources.Concat "/css/css.css" | resources.Minify | resources.Fingerprint }}
-	<link rel="stylesheet" href="{{ $css.Permalink }}">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/vs-syntax.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 </head>

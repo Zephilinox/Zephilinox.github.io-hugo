@@ -1,6 +1,7 @@
 {{ partial "header" . }}
 {{ partial "nav" . }}
 <section class="section">
+{{ $paginator := .Paginate (where .Pages "Type" "projects") 20 }}
 {{ partial "pager" . }}
 	<div class="container">
 		{{ range sort .Paginator.Pages }}
@@ -8,16 +9,26 @@
 			<h1 class="title" ><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
 			<div class="content">
 				{{ if .Params.image }}
-					<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
-						<img src="../../projects/{{ .Params.image }}" alt="Image of '{{ .Title }}' Project"/>
-					</a>
+					{{ if .Params.left }}
+						<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
+							<img src="../../projects/{{ .Params.image }}" style="float: left; margin-right: 15px; margin-top: 10px;" alt="Image of '{{ .Title }}' Project"/>
+						</a>
+					{{ else }}
+						<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
+							<img src="../../projects/{{ .Params.image }}" style="display: block; margin-left: auto; margin-right: auto;" alt="Image of '{{ .Title }}' Project"/>
+						</a>
+					{{ end }}
 					
+					{{ .Summary }}
+					
+					{{ if .Truncated }}
 					<a class="button is-link read-more" href="{{ .Permalink }}" style="height:28px;">
 						Read more
 						<span class="icon">
 							<i class="fa fa-angle-double-right"></i>
 						</span>
 					</a>
+					{{ end }}
 				{{ else }}
 					{{ .Summary }}
 					
