@@ -2,11 +2,12 @@ baseurl = "https://ricardoheath.co.uk"
 languageCode = "en"
 title = "Ricardo Heath"
 theme = "Hucore"
-disqusShortname = ""
-googleAnalytics = "UA-118667261-1"
 publishDir = "public"
 enableGitInfo = true
-Paginate = 20
+ignoreLogs =['warning-goldmark-raw-html']
+
+[pagination]
+pagerSize = 20
 
 [taxonomies]
 tag = "tags"
@@ -14,7 +15,7 @@ category = "categories"
 
 [params]
 description = "Ricardo Heath's Portfolio"
-keywords = ["C++", "Gamedev", "Programming", "Portfolio"]
+keywords = ["C++", "Gamedev", "Programming", "Portfolio", "Webdev"]
 displayauthor = true
 author = "Ricardo Heath"
 sharingicons = false
@@ -28,5 +29,9 @@ url = "https://github.com/zephilinox"
 fa_icon = "fa-github"
 
 [[params.social]]
-url = "https://twitter.com/zephilinox"
-fa_icon = "fa-twitter"
+url = "https://bsky.app/profile/zeph.wtf"
+fa_icon = "fa-bluesky"
+
+[[params.social]]
+url = "https://www.linkedin.com/in/ricardo-heath/"
+fa_icon = "fa-linkedin"

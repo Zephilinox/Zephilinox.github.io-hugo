@@ -7,7 +7,7 @@ left: true
 ---
 
 [Terraria Chat Notifications](https://github.com/Zephilinox/ZephsChatNotifications) is a mod which informs players on a server when another player has crafted and picked up certain items, like boss loot.
-</br>
+
 This mod has over 1000 downloads.
 
 <!--more-->

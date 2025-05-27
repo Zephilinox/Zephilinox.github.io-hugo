@@ -18,7 +18,7 @@ My current side-project is working on the 2D renderer for Engine27, which is mea
 
 # Game programming
 When it comes to games I enjoy designing and balancing systems, as can be seen in my variety of created [mods](../mods/), [games](../games/), and tools such as [platforms](../projects/platform-system/) and a [level editor](../projects/level-editor/).
-</br>
+
 I'm fond of rendering, love networking, and adore architectural challenges (design patterns, yay)
 
 # Game Jams
@@ -34,6 +34,3 @@ I watch a lot of C++ talks from conferences online, and I'm hoping to attend the
 I enjoy all types of games (video, pen & paper, and board). My favourite game is Mount & Blade: Warband, my favourite pen & paper game is DnD 5e, and my favourite boardgame is Love Letter (I know! I'm hoping Lisboa will replace it soon).
 
 When it comes to reading I'm all about fictional fantasy and sci-fi, especially anything by Brandon Sanderson. Discworld, Seveneves, Kingkiller Chronicles, and Mistborn are some of my favourites.
-
-
-

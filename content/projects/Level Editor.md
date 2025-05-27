@@ -15,7 +15,6 @@ An instructional video on the level editor was made to support the gameplay team
 
 {{< youtube KalmOs-ZviU >}}
 
-</br>
 Our team created a trailer to showcase what we created, which partly showcases the level editor being used.
 
 {{< youtube 7jW-z8eynao >}}

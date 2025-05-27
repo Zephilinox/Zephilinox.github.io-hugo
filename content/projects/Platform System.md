@@ -10,7 +10,7 @@ I made a system in unity to create nice platforms for the 3D platforming [Slime 
 <!--more-->
 
 ![](../platformsystem2.png)
-</br>
+
 ![](../platformsystem3.png)
-</br>
+
 ![](../platformsystem4.png)
