@@ -4,6 +4,11 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
+	<h2 class="subtitle is-6">{{ .Date.Format "2006-01-02" }}{{ if not (eq (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}, modified {{ .Lastmod.Format "2006-01-02" }} {{ end }}</h2>
+    {{ if .Params.tags }}
+    {{ partial "tags" .Params.tags }}
+	{{ partial "horizontal" }}
+    {{ end }}
     <div class="content">
 		{{ if .Params.image }}
 			{{ if .Params.left }}

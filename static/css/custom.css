@@ -87,6 +87,16 @@ a.button.is-link.read-more {
 	color: #3C3C3C;
 }
 
+div.tags > a.button.is-link {
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0px 8px 0px;
+	text-decoration: none;
+}
+
+div.tags > a.button.is-link:hover {
+	background-color: #ffd0a8;
+}
+
 div.content:hover > a.button.is-link.read-more:hover {
 	color: #F2992E !important;
 }

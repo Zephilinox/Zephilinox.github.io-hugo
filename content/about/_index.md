@@ -1,7 +1,6 @@
 ---
 title: About
 weight: 10
-type: pages
 ---
 
 # Introduction
