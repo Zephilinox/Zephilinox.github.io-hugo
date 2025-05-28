@@ -3,12 +3,14 @@ title: About
 weight: 10
 ---
 
+You can find my résumé [here](
+https://drive.google.com/open?id=1ivFccs5jylJk1owtL1JpQ6qnXj-RWwnh)
+
 # Introduction
 
-Hi, I'm Ricardo Heath. A software developer with a strong foundation in C++, game development, and more recently backend web development using Go! I've had a lot of fun diving into backend systems, working on side projects using Go that explore concurrency, performance, and scalability, like [Stardelve](/projects/stardelve/)
+Hi, I'm Ricardo Heath. A software developer with a long background in C++ and game development, and more recently backend web development using Go! I've had a lot of fun diving into backend systems, working on side projects using Go that explore concurrency, performance, and scalability, like [Stardelve](/projects/stardelve/)
 
-I hold a First Class Honours degree in Games Technology from the University of the West of England and have since spent the past several years building software across a range of domains. **You can find my résumé** [here](
-https://drive.google.com/open?id=1ivFccs5jylJk1owtL1JpQ6qnXj-RWwnh). The best way to reach me is via email (details in the résumé). I also maintain some of my work on GitHub, including personal projects and contributions to open-source software.
+I hold a First Class Honours degree in Games Technology from the University of the West of England and have since spent the past several years building software across a range of domains. The best way to reach me is via email (details in the résumé). I also maintain some of my work on GitHub, including personal projects and contributions to open-source software.
 
 # Game Development
 

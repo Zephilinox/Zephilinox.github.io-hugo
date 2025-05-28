@@ -2,7 +2,7 @@
 date: 2021-09-01
 title: WASM C++ & CMake Template
 weight: 2
-tags: ["c++"]
+tags: ["c++", "library"]
 ---
 
 [Demo](https://ricardoheath.co.uk/emscripten-cpp-cmake-template/). I released [this](https://github.com/Zephilinox/emscripten-cpp-cmake-template) Github Template to set up a new repo that had full support for running C++ on the web via WASM, using Emscripten, alongside all the required libraries, integrations, best practices, and build systems with CI/CD

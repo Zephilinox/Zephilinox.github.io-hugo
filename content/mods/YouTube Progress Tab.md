@@ -1,7 +1,7 @@
 ---
 date: 2024-11-28
 title: YouTube Progress Tab
-weight: 6
+weight: 2
 image: "ytprog-tab.png"
 tags: ["webdev", "modding", "typescript"]
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2018-02-01
 title: Cowboys
-weight: 1
+weight: 4
 image: "cowboys.png"
 tags: ["gamedev", "c++"]
 ---

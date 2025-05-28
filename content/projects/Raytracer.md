@@ -1,6 +1,6 @@
 ---
 date: 2019-02-01
-title: Raytracer
+title: Rust Raytracer
 weight: 2
 tags: ["rust"]
 ---
