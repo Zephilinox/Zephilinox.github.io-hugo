@@ -2,7 +2,7 @@
 date: 2024-10-01
 title: Squeeshie IDLE RPG
 weight: 2
-tags: ["webdev", "gamedev", "go"]
+tags: ["webdev", "gamedev", "go", "sql"]
 image: "squeeshie.png"
 ---
 
