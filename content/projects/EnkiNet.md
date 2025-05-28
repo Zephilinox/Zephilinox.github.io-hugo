@@ -1,8 +1,8 @@
 ---
-date: 2018-05-03
+date: 2019-07-01
 title: EnkiNet
 weight: 1
-tags: ["gamedev", "c++"]
+tags: ["gamedev", "c++", "library"]
 ---
 
 {{< youtube YaYw5OSId7s >}}

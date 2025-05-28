@@ -91,6 +91,7 @@ div.tags > a.button.is-link {
 	padding: 2px 4px 2px 4px;
 	margin: 2px 0px 8px 0px;
 	text-decoration: none;
+	background-color: #ffe2c9;
 }
 
 div.tags > a.button.is-link:hover {

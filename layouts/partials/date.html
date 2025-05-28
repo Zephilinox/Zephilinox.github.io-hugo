@@ -1,0 +1,17 @@
+<h2 class="subtitle is-6">
+{{- $date := .Date -}}
+{{- $lastmod := .Lastmod -}}
+{{- if eq .Type "post" -}}
+    {{- $formattedDate := $date | time.Format ":date_long" -}}
+    {{- $isModified := and (not (eq $lastmod $date)) (not ($lastmod.IsZero)) -}}
+    {{ $formattedDate }}{{ if $isModified }}, modified {{ $lastmod | time.Format ":date_long" }}{{ end }}
+{{- else -}}
+    {{- if eq .Type "about" -}}
+        last updated {{ $lastmod | time.Format ":date_long" }}
+    {{- else -}}
+        {{- if $date -}}
+            {{ $date | time.Format "January 2006" }}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+</h2>

@@ -4,7 +4,7 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
-	<h2 class="subtitle is-6">{{ .Date.Format "2006-01-02" }}{{ if not (eq (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}, modified {{ .Lastmod.Format "2006-01-02" }} {{ end }}</h2>
+	{{ partial "date" . }}
     {{ if .Params.tags }}
     {{ partial "tags" .Params.tags }}
     {{ end }}
@@ -16,7 +16,7 @@
 				</a>
 			{{ else }}
 				<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
-					<img src="{{ .Permalink }}../{{ .Params.image }}" style="display: block; margin-left: auto; margin-right: auto;" alt="Image of '{{ .Title }}' Project"/>
+					<img src="{{ .Permalink }}../{{ .Params.image }}" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 16px;" alt="Image of '{{ .Title }}' Project"/>
 				</a>
 			{{ end }}
 		{{ end }}

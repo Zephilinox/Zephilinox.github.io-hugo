@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2018-09-01
 title: Splatoon Demake
 weight: 7
 tags: ["gamedev", "unity", "csharp"]

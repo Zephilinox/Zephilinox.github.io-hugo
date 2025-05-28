@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2019-03-01
 title: CDCGAN
 weight: 3
 tags: ["python"]
@@ -15,7 +15,7 @@ tags: ["python"]
 
 [Weekly Development Videos](https://www.youtube.com/watch?v=Ur6vrh5-gMU&list=PLAu3dU8p746BB1z4TUxNWb8e1J3OjnxYR&index=11)
 
-<object data="../CDCGAN.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block;">
+<object data="../CDCGAN.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block; padding-bottom: 16px;">
     <embed src="../CDCGAN.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../CDCGAN.pdf">Download PDF</a>.</p>
     </embed>

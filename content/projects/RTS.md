@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2018-09-01
 title: RTS Framework & Prototype
 weight: 1
 tags: ["gamedev", "c++"]
@@ -19,7 +19,7 @@ A 3D [RTS "Game"](https://github.com/Zephilinox/DirectX11-RTS) made using Win32 
 
 [Weekly Development Videos](https://www.youtube.com/watch?v=7nHGPGpBY6I&list=PLAu3dU8p746BB1z4TUxNWb8e1J3OjnxYR&index=2&t=0s)
 
-<object data="../RTSAI.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block;">
+<object data="../RTSAI.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block; padding-bottom: 16px;">
     <embed src="../RTSAI.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../RTSAI.pdf">Download PDF</a>.</p>
     </embed>

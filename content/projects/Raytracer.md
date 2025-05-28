@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2019-02-01
 title: Raytracer
 weight: 2
 tags: ["rust"]
@@ -19,7 +19,7 @@ A [Raytracer](https://github.com/Zephilinox/Raytracer) made using Rust following
 
 [Weekly Development Videos](https://www.youtube.com/watch?v=aZYAK2H6lus&list=PLAu3dU8p746BB1z4TUxNWb8e1J3OjnxYR&index=6)
 
-<object data="../Raytracer.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block;">
+<object data="../Raytracer.pdf" type="application/pdf" width="100%" height="700px" style="margin-left: auto; margin-right: auto; display: block; padding-bottom: 16px;">
     <embed src="../Raytracer.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="../Raytracer.pdf">Download PDF</a>.</p>
     </embed>

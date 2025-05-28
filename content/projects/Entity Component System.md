@@ -1,8 +1,8 @@
 ---
-date: 2018-05-03
+date: 2013-06-01
 title: Entity Component System
 weight: 2
-tags: ["gamedev", "c++"]
+tags: ["gamedev", "c++", "library"]
 ---
 
 After reading the blog post on [T-Machine](http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/) I decided to create an [Entity Component System](https://github.com/Zephilinox/ECS) in 2012 by using C++ and SFML. The ECS is unlike that present in Unity, as all components only contain data.

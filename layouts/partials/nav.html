@@ -15,7 +15,7 @@
           {{ range .Site.Params.social }}
           <a class="level-item" href="{{ .url }}" target="_blank">
             <span class="icon">
-              <i class="fa {{ .fa_icon }} fa-2x"></i>
+              <i class="{{ .fa_icon }}"></i>
             </span>
           </a>
           {{ end }}

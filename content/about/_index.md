@@ -5,16 +5,16 @@ weight: 10
 
 # Introduction
 
-Hi, I'm Ricardo Heath. A software developer with a strong foundation in C++, game development, and more recently backend web development using Go! I've had a lot of fun diving into backend systems, working on side projects using Go that explore concurrency, performance, and scalability, like [stardelve](https://stardelve.com).
+Hi, I'm Ricardo Heath. A software developer with a strong foundation in C++, game development, and more recently backend web development using Go! I've had a lot of fun diving into backend systems, working on side projects using Go that explore concurrency, performance, and scalability, like [Stardelve](/projects/stardelve/)
 
-I hold a First Class Honours degree in Games Technology from the University of the West of England and have since spent the past several years building software across a range of domains. You can find my résumé [here](
+I hold a First Class Honours degree in Games Technology from the University of the West of England and have since spent the past several years building software across a range of domains. **You can find my résumé** [here](
 https://drive.google.com/open?id=1ivFccs5jylJk1owtL1JpQ6qnXj-RWwnh). The best way to reach me is via email (details in the résumé). I also maintain some of my work on GitHub, including personal projects and contributions to open-source software.
 
 # Game Development
 
-Game development is what first pulled me into software when I was 12 years old and started learning Lua to create addons for a game called Garry's Mod. I've worked on gameplay systems, custom tools, and mods. I'm especially passionate about engine architecture, networking, and system design, with experience making my own games and engines, while also having worked with Unreal Engine 5, Unity, and Godot
+Game development is what really got me to pursue a career in software when I was just 12 years old. I really started learning through creating Lua addons for a game called Garry's Mod. Since then I've worked on gameplay systems, custom tools, and mods, including shipping my first game [Evercore Heroes](/games/evercore-heroes/) while at Vela Games. I'm especially passionate about engine architecture, networking, and system design, with experience making my own games and engines, while also having worked with Unreal Engine 5, Unity, and Godot
 
-My first game jam was back in 2018. It was a crazy 1-hour game jam in which I used the Godot engine to make a simple 2D shooter. My second game jam was Global Game Jam 2019, where I worked with a team of friends at UWE to create [Country Roads](https://v3.globalgamejam.org/2019/games/country-road) in 72 hours, placing 2nd in the local jam site. Later that year I also participated in Ludum Dare 45 with a friend, where we built [Quest for the Good Time Adventure](https://ldjam.com/events/ludum-dare/45/quest-for-the-good-time-adventure)
+My first game jam was back in 2018. It was a crazy 1-hour game jam in which I used the Godot engine to make a simple 2D shooter. My second game jam was Global Game Jam 2019, where I worked with a team of friends at UWE to create [Country Roads](games/country-roads/) in 72 hours, placing 2nd in the local jam site. Later that year I also participated in Ludum Dare 45 with a friend, where we built [Quest for the Good Time Adventure](games/quest-for-the-good-time-adventure/)
 
 # Web Development
 

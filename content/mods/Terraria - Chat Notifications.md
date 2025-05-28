@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2019-06-01
 title: Terraria - Chat Notifications
 weight: 6
 image: "terraria-chat.png"

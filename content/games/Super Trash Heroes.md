@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2018-10-01
 title: Super Trash Heroes
 weight: 6
 tags: ["gamedev", "unity", "csharp"]

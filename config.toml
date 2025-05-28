@@ -5,6 +5,13 @@ theme = "Hucore"
 publishDir = "public"
 enableGitInfo = true
 ignoreLogs =['warning-goldmark-raw-html']
+summaryLength = 100
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[frontmatter]
+lastmod =['modified', ':fileModTime']
 
 [pagination]
 pagerSize = 20
@@ -26,12 +33,12 @@ languages = ["cpp"]
 
 [[params.social]]
 url = "https://github.com/zephilinox"
-fa_icon = "fa-github"
+fa_icon = "fa-brands fa-github"
 
 [[params.social]]
 url = "https://bsky.app/profile/zeph.wtf"
-fa_icon = "fa-bluesky"
+fa_icon = "fa-brands fa-bluesky"
 
 [[params.social]]
 url = "https://www.linkedin.com/in/ricardo-heath/"
-fa_icon = "fa-linkedin"
+fa_icon = "fa-brands fa-linkedin"

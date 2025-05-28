@@ -1,5 +1,5 @@
 ---
-date: 2018-05-03
+date: 2014-11-01
 title: Hexagonal A* Pathfinding
 weight: 10
 image: "galemp.png"

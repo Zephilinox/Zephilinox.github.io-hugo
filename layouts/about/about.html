@@ -4,6 +4,7 @@
 <section class="section">
   <div class="container">
     <h1 class="title">{{ .Title }}</h1>
+    {{ partial "date" . }}
     {{ if .Params.tags }}
       {{ partial "tags" .Params.tags }}
     {{ end }}
