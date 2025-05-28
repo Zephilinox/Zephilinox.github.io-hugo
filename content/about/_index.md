@@ -4,32 +4,25 @@ weight: 10
 ---
 
 # Introduction
-My name is Ricardo Heath. I've graduated with First Class Honours from the University of the West of England doing Games Technology. I mostly program in C++17 but I have exposure to multiple languages, such as C#.
 
-You can find my Résumé [here](
-https://drive.google.com/open?id=1ivFccs5jylJk1owtL1JpQ6qnXj-RWwnh). The best way of contacting me is via email, which can be found at the top of my Résumé. I have some projects which can be found on github as well as on this website, and a few minor FOSS contributions.
+Hi, I'm Ricardo Heath. A software developer with a strong foundation in C++, game development, and more recently backend web development using Go! I've had a lot of fun diving into backend systems, working on side projects using Go that explore concurrency, performance, and scalability, like [stardelve](https://stardelve.com).
 
-# Projects
+I hold a First Class Honours degree in Games Technology from the University of the West of England and have since spent the past several years building software across a range of domains. You can find my résumé [here](
+https://drive.google.com/open?id=1ivFccs5jylJk1owtL1JpQ6qnXj-RWwnh). The best way to reach me is via email (details in the résumé). I also maintain some of my work on GitHub, including personal projects and contributions to open-source software.
 
-My dissertation was creating a high-level API in C++17 for an entity scene-graph that abstracts and automates networking, such as implementing RPC's. You can find it [here](../projects/enkinet/).
+# Game Development
 
-My current side-project is working on the 2D renderer for Engine27, which is meant as a culmination of everything I've learnt (long way to go). You can find it [here](../projects/engine27/).
+Game development is what first pulled me into software when I was 12 years old and started learning Lua to create addons for a game called Garry's Mod. I've worked on gameplay systems, custom tools, and mods. I'm especially passionate about engine architecture, networking, and system design, with experience making my own games and engines, while also having worked with Unreal Engine 5, Unity, and Godot
 
-# Game programming
-When it comes to games I enjoy designing and balancing systems, as can be seen in my variety of created [mods](../mods/), [games](../games/), and tools such as [platforms](../projects/platform-system/) and a [level editor](../projects/level-editor/).
+My first game jam was back in 2018. It was a crazy 1-hour game jam in which I used the Godot engine to make a simple 2D shooter. My second game jam was Global Game Jam 2019, where I worked with a team of friends at UWE to create [Country Roads](https://v3.globalgamejam.org/2019/games/country-road) in 72 hours, placing 2nd in the local jam site. Later that year I also participated in Ludum Dare 45 with a friend, where we built [Quest for the Good Time Adventure](https://ldjam.com/events/ludum-dare/45/quest-for-the-good-time-adventure)
 
-I'm fond of rendering, love networking, and adore architectural challenges (design patterns, yay)
+# Web Development
 
-# Game Jams
-
-My first game jam was a 1-hour game jam based on a thread at tildes.net, in which I used the Godot engine to make a simple shooter. My second game jam was Global Game Jam 2019, where I worked with a team of friends at UWE to create Country Roads in 72 hours, placing 2nd in the local jam site.
+Although modding games was how I really began to see a career in programming, web development was actually what introduced to this area. I made a free website (think geocities) when I was just 9 years old. It was mostly copy-pasting old-school Javascript snippets and tweaking CSS colours and bits of HTML, but it was a great introduction to the power of programming, and now I'm diving back in deeper through projects using Typescript (React), SQL (Postgres), and Golang, which has been great!
 
 # Conferences
+- Brighton Develop 2019
+- ACCU 2021
+- ACCU 2022
 
-I recently attended Brighton Develop 2019, my first ever conference thanks to it being mostly paid for by UWE. There were some interesting talks and it was great to experience a real conference.
-I watch a lot of C++ talks from conferences online, and I'm hoping to attend the C++ ACCU in Bristol next year, of which I've recently become a member.
-
-# Hobbies
-I enjoy all types of games (video, pen & paper, and board). My favourite game is Mount & Blade: Warband, my favourite pen & paper game is DnD 5e, and my favourite boardgame is Love Letter (I know! I'm hoping Lisboa will replace it soon).
-
-When it comes to reading I'm all about fictional fantasy and sci-fi, especially anything by Brandon Sanderson. Discworld, Seveneves, Kingkiller Chronicles, and Mistborn are some of my favourites.
+I'm always keeping up with the latest developments in the industry through conference talks

@@ -3,6 +3,7 @@ date: 2018-05-03
 title: DnD 5e - Make-A-Warforged
 weight: 3
 image: "warforged.png"
+tags: ["modding"]
 ---
 
 [Make-A-Warforged](https://homebrewery.naturalcrit.com/share/r1uX6ULDZ) is a homebrew race for Dungeons and Dragons 5th edition, with a unique design that allows players to customise their warforged character without overpowering those of other players. It has been viewed over 15,000 times.

@@ -2,6 +2,7 @@
 date: 2018-05-03
 title: Raytracer
 weight: 2
+tags: ["rust"]
 ---
 
 {{< youtube MS9azYZO7zQ >}}

@@ -2,6 +2,7 @@
 date: 2018-05-03
 title: RTS Framework & Prototype
 weight: 1
+tags: ["gamedev", "c++"]
 ---
 
 {{< youtube kowQeYRZGaw >}}

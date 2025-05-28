@@ -3,6 +3,7 @@ date: 2018-05-03
 title: Kachiku Level Editor
 weight: 1
 image: "level editor.png"
+tags: ["gamedev", "unity", "csharp"]
 ---
 
 Kachiku is a university project that has been worked on across two different years by ~50 different students. Myself and 3 others inherited the level editor project made with Unity for the game and were tasked with improving it.

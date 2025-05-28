@@ -2,6 +2,7 @@
 date: 2018-05-03
 title: CDCGAN
 weight: 3
+tags: ["python"]
 ---
 
 {{< youtube NBEB2Dkw1aE >}}
