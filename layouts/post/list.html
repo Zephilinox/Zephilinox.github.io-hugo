@@ -1,30 +1,51 @@
 {{ partial "header" . }}
 {{ partial "nav" . }}
 <section class="section">
-	{{ $paginator := .Paginate (where .Pages "Type" "posts") 10 }}
-	{{ partial "pager" . }}
+{{ partial "pager" . }}
   <div class="container">
-	{{ range $paginator.Pages }}
-    <article>
-      <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
-	    {{ partial "date" . }}
-      {{ if .Params.tags }}
-      {{ partial "tags" .Params.tags }}
-      {{ end }}
-      <div class="content">
-        {{ .Summary }}
-        {{ if .Truncated }}
-        <a class="button is-link read-more" href="{{ .Permalink }}" style="height:28px;">
-          Read more
-          <span class="icon">
-            <i class="fa fa-angle-double-right"></i>
-          </span>
-        </a>
-        {{ end }}
-      </div>
-    </article>
-    {{ end }}
-  </div>
+	{{ if .Site.Taxonomies.tags }}
+		<div class="tags" style="padding-bottom: 32px;">
+		{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			<a class="button is-link" href="{{ "/tags/" | relURL }}{{ $name | urlize }}" class="tag">
+			{{ $name }} ({{ $taxonomy.Count }})
+			</a>
+		{{ end }}
+		</div>
+	{{ end }}
+    {{ range sort .Paginator.Pages }}
+		<article style="margin-bottom: 40px;">
+			<h1 class="title" ><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
+			{{ partial "date" . }}
+			{{ if .Params.tags }}
+			{{ partial "tags" .Params.tags }}
+			{{ end }}
+			<div class="content">
+				{{ if .Params.image }}
+					{{ if .Params.left }}
+						<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
+							<img src="{{ .Permalink }}../{{ .Params.image }}" style="float: left; margin-right: 15px; margin-top: 10px;" alt="Image of '{{ .Title }}' Project"/>
+						</a>
+					{{ else }}
+						<a href="{{ .Permalink}}" style="text-decoration: none !important; border-bottom: none;">
+							<img src="{{ .Permalink }}../{{ .Params.image }}" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 16px;" alt="Image of '{{ .Title }}' Project"/>
+						</a>
+					{{ end }}
+				{{ end }}
+
+				{{ .Summary }}
+				
+				{{ if .Truncated }}
+				<a class="button is-link read-more" href="{{ .Permalink }}" style="height:28px;">
+					Read more
+					<span class="icon">
+						<i class="fa fa-angle-double-right"></i>
+					</span>
+				</a>
+				{{ end }}
+			</div>
+		</article>
+		{{ end }}
+	</div>
 {{ partial "pager" . }}
 </section>
 {{ partial "footer" . }}
